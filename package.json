@@ -1,6 +1,25 @@
 {
+  "name": "plone-docs-guide",
+  "version": "1.0.0",
+  "description": "Plone Documentation Guide",
+  "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress buildi docs",
+    "docs:dev": "vuepress dev docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plone/docs-guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plone/docs-guide/issues"
+  },
+  "homepage": "https://github.com/plone/docs-guide#readme",
+  "dependencies": {
+    "vuepress": "^1.7.0"
   }
 }
