@@ -1,5 +1,4 @@
 <a href="https://github.com/plone/docs-guide"><img src="https://img.shields.io/badge/dynamic/json.svg?color=blue&label=Plone%20Docs%20Guide&prefix=v&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fplone%2Fdocs-guide%2Fmaster%2Fpackage.json"/></a>
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
