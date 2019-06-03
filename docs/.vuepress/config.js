@@ -6,7 +6,7 @@ module.exports = {
     ],
     sidebar: [
       '/',
-      ['/markdown','Markdown Style Guide']
+      ['markdown/about','Markdown Style Guide']
     ],
     lastUpdated: 'Last Updated', // string | boolean
     // Assumes GitHub. Can also be a full GitLab url.

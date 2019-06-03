@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: 📝 Guide
-actionLink: /styleguide-markdown/accessibility-a11y.md
+actionLink: markdown/about
 footer: Made with 💚 by Plone Community
 ---
 
