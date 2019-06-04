@@ -1,23 +1,49 @@
 module.exports = {
+  title: 'Plone Documentation Guide',
+  description: 'One guide to rule them all',
   themeConfig: {
-    nav: [
-      { text: 'PLONE.ORG', link: 'https://plone.org' },
-      { text: 'FORUM', link: 'https://community.plone.org' },
-    ],
-    sidebar: [
-      '/',
-      ['markdown/about','Markdown Style Guide']
-    ],
-    lastUpdated: 'Last Updated', // string | boolean
-    // Assumes GitHub. Can also be a full GitLab url.
+    lastUpdated: 'Last Updated',
     repo: 'plone/docs-guide',
-    // Customising the header label
-    // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     repoLabel: 'Contribute!',
     docsDir: 'docs',
-    editLinks: true,
-    editLinkText: 'Help us improve this page!'
-  },
-  title: 'Plone Documentation Guide',
-  description: 'One guide to rule them all'
+    editLinks: false,
+    editLinkText: 'Help us improve this page!',
+    nav: [{
+        text: 'PLONE.ORG',
+        link: 'https://plone.org'
+      },
+      {
+        text: 'FORUM',
+        link: 'https://community.plone.org'
+      }
+    ],
+    sidebar: [{
+      title: 'Styleguide Markdown',
+      collapsable: true,
+      children: [
+        '/markdown/accessibility-a11y',
+        '/markdown/blockquotes',
+        '/markdown/code',
+        '/markdown/comments',
+        '/markdown/emphasis',
+        '/markdown/headings',
+        '/markdown/horizontal-rules',
+        '/markdown/images',
+        '/markdown/links',
+        '/markdown/lists',
+        '/markdown/naming-conventions',
+        '/markdown/paragraphs',
+        '/markdown/strings',
+        '/markdown/tables',
+        '/markdown/whitespace',
+
+
+
+
+
+
+
+      ]
+    }]
+  }
 }
