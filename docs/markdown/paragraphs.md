@@ -12,19 +12,19 @@ Never indent the content of paragraphs.
 
 ```markdown
 The winter has sparkling and frozen elements!
-Many snowflakes are falling down.
+Snowflakes are falling down.
 ```
 
-Note: The `·` character represents a whitespace.
+::: tip Note The `·` character represents a whitespace. :::
 
 **Incorrect** code for this rule:
 
 ```markdown
 ·The winter has sparkling and frozen elements!
-·Many snowflakes are falling down.
+·Snowflakes are falling down.
 ```
 
 ```markdown
 ······The winter has sparkling and frozen elements!
-········Many snowflakes are falling down.
+········Snowflakes are falling down.
 ```
