@@ -15,7 +15,9 @@ The winter has sparkling and frozen elements!
 Snowflakes are falling down.
 ```
 
-::: tip Note The `·` character represents a whitespace. :::
+::: tip Note
+The `·` character represents a whitespace.
+:::
 
 **Incorrect** code for this rule:
 
