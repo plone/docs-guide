@@ -4,7 +4,7 @@
 
 Use one (1) asterisk `*` marker to generate spans for italic formatted text.
 
-> remark-lint: [emphasis-marker][remark-lint-emphasis-marker]
+> remark-lint: [emphasis-marker](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-emphasis-marker)
 
 ### Examples
 
