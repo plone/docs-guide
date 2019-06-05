@@ -5,7 +5,7 @@
 Use double quotes `""` for strings:
 
 - **Double quotes can be used for inline HTML**.
-- **Consistency to other style guides**. Double quotes are used by many code styles like e.g. [JavaScript](https://arcticicestudio.github.io/styleguide-javascript).
+- **Consistency to other style guides**. Double quotes are used by many code styles like for example [JavaScript](https://arcticicestudio.github.io/styleguide-javascript).
 - **Parallelism to the natural language**. Double quotes are used to identify a passage of quoted text. When using single quotes, the reader may misinterpret it as a contraction. The other meaning of a passage of text surrounded by the `'` indicates the *colloquial* meaning. It makes sense to stay consistent with pre-existing languages, and this may likely ease the learning and interpretation of code.
 
 > remark-lint: [link-title-style](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-link-title-style)

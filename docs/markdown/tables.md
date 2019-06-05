@@ -4,7 +4,7 @@
 
 Prefer lists and only use tables for small, non-complex and single line content.
 
-Complex, large tables are difficult to read in source and most importantly, a pain to modify, indent and also read later e.g. when using
+Complex, large tables are difficult to read in source and most importantly, a pain to modify, indent and also read later for example when using
 
 - Line breaks within rows
 - Very long sentences that must be wrapped

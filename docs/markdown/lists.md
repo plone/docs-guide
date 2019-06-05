@@ -45,7 +45,7 @@ The only disadvantage is that references break when a new list item is added.
 This problem can be reduced by
 
 - Using an unordered list until the final structure and layout has been determined.
-- Keeping references close to the list so authors are less likely to forget to update them.
+- Keeping references close to the list to avoind forgetting to update them.
 - Always specify an specific version of the markdown file when referring from an external document.
 
 > remark-lint: [ordered-list-marker-style](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-unordered-list-marker-style) and [remark-lint-ordered-list-marker-value](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-ordered-list-marker-value)

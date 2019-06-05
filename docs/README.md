@@ -14,3 +14,4 @@ It is better to understand a codebase when all the **documentation and code** is
 A style guide establishes and enforces style to improve the intelligibility and communication within the project community.
 
 It ensures consistency and enforces best practice in usage and language composition.
+
