@@ -18,7 +18,7 @@ module.exports = {
       }
     ],
     sidebar: [{
-      title: 'Styleguide Markdown',
+      title: 'Markdown Styleguide',
       collapsable: true,
       children: [
         '/markdown/accessibility-a11y',
@@ -36,6 +36,13 @@ module.exports = {
         '/markdown/strings',
         '/markdown/tables',
         '/markdown/whitespace',
+      ]
+    },
+    {
+      title: 'Editorial Styleguide',
+      collapsable: true,
+      children: [
+        'editorial/writing-all-abilities',
       ]
     },
     {
