@@ -123,27 +123,3 @@ Reference link IDs must be unique within a document file.
 [snow](https://snow.io)
 [snow](https://snow.io/snowflakes)
 ```
-
-## No Empty URL
-
-Do not use links or images with empty URLs.
-
-> remark-lint: [no-empty-url](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-empty-url)
-
-### Examples
-
-**Correct** code for this rule:
-
-```markdown
-The [winter](https://the-winter-is-sparkling-and-frozen.io) is sparkling and frozen!
-
-![snowflake image](https://snow-is-falling-down.io/snowflake.png)
-```
-
-**Incorrect** code for this rule:
-
-```markdown
-The [winter]() is sparkling and frozen!
-
-![snowflake image]()
-```

@@ -35,6 +35,7 @@ Use dashes `-` marker.
 Use continuous numerating marker for ordered list items.
 
 This increases the readability and overview and allows to refer to items by their number in the same markdown file or externally.
+
 It also allows to create sub-items which is not possible if the same number will be used for all top-level items.
 
 The marker character must be a dot (`.`), characters like a closing brace (`)`) are not allowed since they are only supported in CommonMark.
@@ -361,7 +362,7 @@ Use punctuation at the end of a list item when it contains a sentence that start
 
 Omit the punctuation for single words.
 
-###### Examples
+### Examples
 
 **Correct** code for this rule:
 
@@ -401,7 +402,7 @@ Use `x` for ticked checkboxes and a single space ` ` for non ticked checkboxes.
 
 > remark-lint: [checkbox-character-style](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-checkbox-character-style)
 
-###### Examples
+### Examples
 
 **Correct** code for this rule:
 

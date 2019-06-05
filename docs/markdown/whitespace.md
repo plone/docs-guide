@@ -22,7 +22,9 @@ The winter has sparkling and frozen elements!
 
 **Incorrect** code for this rule:
 
-Note: The `»` character represents a tab.
+::: tip Note
+The `»` character represents a tab.
+:::
 
 ```markdown
 The winter has sparkling and frozen elements!
@@ -49,7 +51,9 @@ Always use unix-style _LF_ linebreaks (`\n`, denoted as `␊`) and avoid the usa
 
 ### Examples
 
-Note: The `¬` character represents a line break.
+::: tip Note
+The `¬` character represents a line break.
+:::
 
 **Correct** code for this rule:
 
@@ -84,7 +88,9 @@ Always add one (1) blank line before blocks except the first line of the file.
 
 ### Examples
 
-Note: The `¬` character represents a line break.
+::: tip Note
+The `¬` character represents a line break.
+:::
 
 **Correct** code for this rule:
 
@@ -133,7 +139,7 @@ The author should be able to write sentences and text blocks without worrying ab
 Other style guides suggest to use line breaks after the character limit has been reached,
 but this will lead to deformed rendered output since GFM supports [soft line breaks](https://github.github.com/gfm/#soft-line-breaks).
 
-Therefore, this guide advices to **avoid using a character limit per line for flowing text**,
+This guide advices to **avoid using a character limit per line for flowing text**,
 but try to use a maximum line length of 120 characters (including whitespaces) for all other document elements.
 
 Instead of enforcing a maximum line length, users should use [soft line wrapping](https://en.wikipedia.org/wiki/Line_wrap_and_word_wrap):
@@ -169,13 +175,15 @@ arctic foxes, and grizzly bears.
 
 ## Trailing
 
-Don't use trailing whitespace to generate a line break, use flowing text style or a blank line to create a new paragraph.
+Do not use trailing whitespace to generate a line break, use flowing text style or a blank line to create a new paragraph.
 
 > remark-lint: [hard-break-spaces](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-hard-break-spaces)
 
 ### Examples
 
-Note: The `·` character represents a whitespace and the `¬` character represents a line break.
+::: tip Note
+The `·` character represents a whitespace and the `¬` character represents a line break.
+:::
 
 **Correct** code for this rule:
 

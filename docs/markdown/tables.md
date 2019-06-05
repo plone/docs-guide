@@ -139,7 +139,7 @@ and optionally, a leading or trailing colon (`:`), or both, to indicate left, ri
 
 ### Examples
 
-⇡ **Correct** code for this rule:
+**Correct** code for this rule:
 
 ```markdown
 | Element | Attribute |
@@ -246,7 +246,7 @@ Never indent tables.
 
 ### Examples
 
-⇡ **Correct** code for this rule:
+**Correct** code for this rule:
 
 ```markdown
 | Element | Attribute             |
@@ -257,7 +257,9 @@ Never indent tables.
 
 **Incorrect** code for this rule:
 
-Note: The `·` character represents a whitespace.
+::: tip Note
+The `·` character represents a whitespace.
+:::
 
 ```markdown
 ·| Element | Attribute             |
@@ -279,4 +281,3 @@ Note: The `·` character represents a whitespace.
 ·········| Frost   | Sparkling and frozen! |
 ·········| Snow    | Falling down!         |
 ```
-

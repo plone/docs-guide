@@ -30,7 +30,7 @@ Always prefer [spinal-case](https://en.wikipedia.org/wiki/Letter_case#Special_ca
 
 > remark-lint: [no-file-name-mixed-case](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-file-name-mixed-case)
 
-###### Examples
+### Examples
 
 **Correct** code for this rule:
 
