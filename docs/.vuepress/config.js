@@ -36,14 +36,16 @@ module.exports = {
         '/markdown/strings',
         '/markdown/tables',
         '/markdown/whitespace',
-
-
-
-
-
-
-
       ]
-    }]
+    },
+    {
+      title: 'About',
+      collapsable: true,
+      children: [
+        'about/overview',
+        'about/acknowledge',
+      ]
+    }
+  ]
   }
 }

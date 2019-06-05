@@ -11,9 +11,7 @@ Add an alternative text for images.
 **Correct** code for this rule:
 
 ```markdown
-![snowflake icon][snowflake]
-
-[snowflake]: https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png
+![snowflake icon](https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png)
 ```
 
 **Incorrect** code for this rule:
@@ -23,4 +21,3 @@ Add an alternative text for images.
 
 [snowflake]: https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png
 ````
-
