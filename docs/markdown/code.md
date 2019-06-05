@@ -108,7 +108,6 @@ To clarify the output of a command use e.g. a comment on the next line or option
 
 **Correct** code for this rule:
 
-
 ```shell
 echo "The winter is sparkling and frozen!"
 ```
@@ -128,7 +127,7 @@ $ echo "The winter is sparkling and frozen!"
 
 When using code blocks within lists make sure to use the correct indention to not break the list.
 
-###### Examples
+### Examples
 
 **Correct** code for this rule:
 
@@ -190,7 +189,6 @@ export default Snow;
 ```
 ~~~
 
-
 **Incorrect** code for this rule:
 
 ```
@@ -219,5 +217,3 @@ Don't use it for
 - **project or proper names** - e.g [React](https://reactjs.org), [GCC](https://gcc.gnu.org), [Node.js](https://nodejs.org), [Golang](https://golang.org) or [Rust](https://www.rust-lang.org)
 - **libraries** - e.g. [libc](https://crates.io/crates/libc)
 - **packages and modules** - e.g. [react-dom](https://www.npmjs.com/package/react-dom) or [archlinux-keyring](https://www.archlinux.org/packages/core/any/archlinux-keyring)
-
-
