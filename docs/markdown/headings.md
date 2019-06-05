@@ -3,7 +3,8 @@
 ## ATX Style
 
 Always use [atx-style](http://www.aaronsw.com/2002/atx/intro) headings (not closed) instead of [Setext](http://docutils.sourceforge.net/mirror/setext.html).
-The level can be easily seen and the number of characters must not match in both lines.
+
+The level can be seen and the number of characters must not match in both lines.
 
 ATX also works for all levels, while Setex only goes up to level 2.
 
@@ -79,9 +80,9 @@ Sparkling and frozen...
 
 Always separate the marker character `#` from the actual header content using a single whitespace.
 
-> remark-lint: [no-heading-content-indent][remark-lint-no-heading-content-indent]
+> remark-lint: [no-heading-content-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-content-indent)
 
-###### Examples
+### Examples
 
 **Correct** code for this rule:
 
@@ -105,7 +106,7 @@ Make sure that there are no other characters (including whitespaces) in front of
 
 > remark-lint: [no-heading-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-content-indent)
 
-###### Examples
+### Examples
 
 **Correct** code for this rule:
 
@@ -113,7 +114,9 @@ Make sure that there are no other characters (including whitespaces) in front of
 # Winter
 ```
 
+::: tip Note
 Note: The `·` character represents a whitespace character.
+:::
 
 **Incorrect** code for this rule:
 
@@ -167,9 +170,9 @@ Proper names or code snippets:
 
 Prefer using short header with a maximum length of 80 character (without markers).
 
-Instead of using a huge sentence, make the header a summary and write the huge sentence as the first paragraph beneath the header.
+Instead of using a long sentence, make the header a summary and write the long sentence as the first paragraph beneath the header.
 
-This makes it is easier to refer to the header later, specially if automatic IDs or a TOC are created.
+This makes it effortless to refer to the header later, specially if automatic IDs or a TOC are created.
 
 > remark-lint: [maximum-heading-length](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-maximum-heading-length)
 
