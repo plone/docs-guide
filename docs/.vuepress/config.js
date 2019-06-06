@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Plone Documentation Guide',
   description: 'One guide to rule them all',
+  ga: 'UA-1907133-7',
   themeConfig: {
     lastUpdated: 'Last Updated',
     repo: 'plone/docs-guide',
