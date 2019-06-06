@@ -1,8 +1,9 @@
 extends: capitalization
-message: "'%s' should use sentence-style capitalization."
+message: "'%s' should use title case"
 level: suggestion
 scope: heading
-match: $sentence
+match: $title
+style: AP
 exceptions:
   - Azure
   - CLI
