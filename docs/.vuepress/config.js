@@ -50,6 +50,7 @@ module.exports = {
       collapsable: true,
       children: [
         'about/overview',
+        'about/contributing',
         'about/acknowledge',
       ]
     }
