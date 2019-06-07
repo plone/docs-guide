@@ -44,6 +44,7 @@ module.exports = {
       collapsable: true,
       children: [
         'editorial/writing-all-abilities',
+        'editorial/acronyms',
       ]
     },
     {
