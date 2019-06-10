@@ -24,7 +24,28 @@
     "remark-html": "^9.0.0",
     "vuepress": "^0.14.11"
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "git-precommit-checks && precise-commit"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^2.4.0",
     "remark-cli": "^5.0.0",
     "remark-preset-lint-markdown-style-guide": "^2.1.2",
     "remark-preset-lint-recommended": "^3.0.2",
