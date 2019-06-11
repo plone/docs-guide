@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: 📝 Guide
-actionLink: markdown/code
+actionLink: introduction
 footer: Made with 💚 by Plone Community
 ---
 <!--lint disable-->
