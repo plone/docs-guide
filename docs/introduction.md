@@ -1,3 +1,9 @@
+::: warning Note
+This guide is for Plone **6** and JavaScript related documentation.
+:::
+
+For Plone **5**, please follow our guide on [docs.plone.org](https://docs.plone.org/about/contributing/index.html#overview).
+
 # Introduction
 
 ::: tip Key Point
