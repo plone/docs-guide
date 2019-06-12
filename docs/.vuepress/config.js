@@ -45,12 +45,14 @@ module.exports = {
       children: [
         'editorial/accessibility',
         'editorial/acronyms',
+        'editorial/translation',
       ]
     },
     {
       title: 'About',
       collapsable: true,
       children: [
+        'about/overview',
         'about/contributing',
         'about/acknowledge',
       ]
