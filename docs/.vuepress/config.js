@@ -43,7 +43,7 @@ module.exports = {
       title: 'Editorial Styleguide',
       collapsable: true,
       children: [
-        'editorial/writing-all-abilities',
+        'editorial/accessibility',
         'editorial/acronyms',
       ]
     },
