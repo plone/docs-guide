@@ -1,5 +1,9 @@
 # Contributing
 
+::: tip Key Point
+:bulb: Information on how to contribute.
+:::
+
 We would love for you to contribute to this guide and help make it even better than it is today!
 
 ## Code of Conduct
@@ -120,9 +124,10 @@ We have precise rules over how our git commit messages can be formatted.
 
 This leads to **more readable messages** that are better to follow when looking through the **project history**.
 
-Also, we use the git commit messages to **generate the change log**.
+We advice to use [Commitizen](https://commitizen.github.io/cz-cli/) which is installed as part of the*dev dependencies*.
 
-We advice to use [Commitizen](https://commitizen.github.io/cz-cli/).
+The git commit messages are also used to **generate the change log**.
+
 
 ### Commit Message Format
 
