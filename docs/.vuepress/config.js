@@ -46,6 +46,7 @@ module.exports = {
         'editorial/general-guideline',
         'editorial/acronyms',
         'editorial/contractions',
+        'editorial/tense',
       ]
     },
     {
