@@ -47,6 +47,7 @@ module.exports = {
         'editorial/acronyms',
         'editorial/contractions',
         'editorial/tense',
+        'editorial/filenames',
       ]
     },
     {
