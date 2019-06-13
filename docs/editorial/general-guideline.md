@@ -1,4 +1,4 @@
-# General writing guide
+# General tips
 
 ::: tip Key Point
 :bulb: General writing dos and don'ts

@@ -45,6 +45,7 @@ module.exports = {
       children: [
         'editorial/general-guideline',
         'editorial/acronyms',
+        'editorial/contractions',
       ]
     },
     {
