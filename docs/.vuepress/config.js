@@ -50,7 +50,8 @@ module.exports = {
         'editorial/contractions',
         'editorial/tense',
         'editorial/headings',
-        'editorial/cross-references.md',
+        'editorial/link-text',
+        'editorial/cross-references',
         'editorial/filenames',
       ]
     },

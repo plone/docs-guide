@@ -12,7 +12,7 @@ Cross-references link to nonessential information that adds to the reader's unde
 
 **:thumbsup: Recommended:**  For more information, see the [installation guide](https://docs.plone.org).
 
-- Use meaningful link text.
+- Use meaningful [link text](link-text.md "Link text docs").
 
 ## Cross-references within generated reference documents
 
