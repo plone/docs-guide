@@ -44,6 +44,7 @@ module.exports = {
       collapsable: true,
       children: [
         'editorial/general-guideline',
+        'editorial/anthropomorphism',
         'editorial/acronyms',
         'editorial/colons',
         'editorial/contractions',
