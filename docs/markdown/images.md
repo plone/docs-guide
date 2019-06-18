@@ -1,18 +1,17 @@
 # Images
 
-## Absolute URLs
+::: tip Key Point
+:bulb: Prefer absolute URLs instead of relative ones to improve the portability of the document.
+:::
 
-Prefer absolute URLs instead of relative ones to improve the portability of the document.
-
-### Examples
-
-**Correct** code for this rule:
-
+**:thumbsup: Correct:**
+<!--lint disable-->
 ```markdown
-![snowflake icon](https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png) snowflakes falling down in the winter!
+![snowflake icon](https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png "Picture of a snowflake") snowflakes falling down in the winter!
 ```
+<!--lint enable-->
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect:**
 
 ```markdown
 ![snowflake icon][snowflake] snowflakes falling down in the winter!
