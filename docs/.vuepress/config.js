@@ -49,6 +49,7 @@ module.exports = {
         'editorial/colons',
         'editorial/contractions',
         'editorial/tense',
+        'editorial/spelling',
         'editorial/headings',
         'editorial/link-text',
         'editorial/cross-references',
