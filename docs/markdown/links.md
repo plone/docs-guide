@@ -1,18 +1,18 @@
 # Links
 
-## Prefer Inline Links
+::: tip Key Point
+:bulb: Always use inline links.
+:::
 
-Always use inline links instead of [reference](https://github.github.com/gfm/#reference-link).
+Use [inline](https://spec.commonmark.org/0.29/#inline-link "Link to specification") links instead of [reference](https://spec.commonmark.org/0.29/#reference-link "Link to specification").
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 [Winter](https://the-winter-is-sparkling-and-frozen.io)
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 [Winter](#winter)
@@ -26,15 +26,13 @@ Always use inline links instead of [reference](https://github.github.com/gfm/#re
 [winter-info]: https://the-winter-is-sparkling-and-frozen.io
 ```
 
-## No ID Inner Spacing
+## No ID inner spacing
 
 Do not use inner spaces within link IDs.
 
-> remark-lint: [no-inline-padding](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-inline-padding)
+> remark-lint: [no-inline-padding](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-inline-padding "Link to remarkjs docs")
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 The [Winter](https://the-winter-is-sparkling-and-frozen.io) is sparkling and frozen!
@@ -42,7 +40,7 @@ The [Winter](https://the-winter-is-sparkling-and-frozen.io) is sparkling and fro
 [Snowflakes](https://in-the-winter-many-snowflakes-are-falling.io) are falling.
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 The [Winter]( https://the-winter-is-sparkling-and-frozen.io ) is sparkling and frozen!
@@ -50,35 +48,32 @@ The [Winter]( https://the-winter-is-sparkling-and-frozen.io ) is sparkling and f
 [Snowflakes](    https://in-the-winter-many-snowflakes-are-falling.io     ) are falling.
 ```
 
-## No Trailing Or Leading Title Spaces
+## No trailing or leading title spaces
 
 Do not use trailing or leading spaces in link titles.
 
 Add necessary spaces before or after the brackets/braces (`[]`, `()`) to format links within flowing text.
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 The [Winter](https://the-winter-is-sparkling-and-frozen.io) is sparkling and frozen! [Snowflakes](https://in-the-winter-many-snowflakes-are-falling.io) are falling.
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 The[ Winter ](https://the-winter-is-sparkling-and-frozen.io)is sparkling and frozen![ Snowflakes ](https://in-the-winter-many-snowflakes-are-falling.io) are falling.
 ```
 
-## Autolink Protocol
+## Autolinks
 
-Always add a valid protocol when using [autolinks](https://github.github.com/gfm/#autolinks).
+Try to avoid them.
+If you haev to use, always add a valid protocol when using [autolinks](https://spec.commonmark.org/0.29/#autolink "Link to specification").
 
-> remark-lint: [no-auto-link-without-protocol](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-auto-link-without-protocol)
+> remark-lint: [no-auto-link-without-protocol](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-auto-link-without-protocol "Link to remarkjs docs")
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 https://example.com
@@ -94,7 +89,7 @@ http://www.example.com.com
 mailto:code@example.com
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 www.example.com
@@ -106,11 +101,9 @@ example.com
 
 Reference link IDs must be unique within a document file.
 
-> remark-lint: [no-duplicate-definitions](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-definitions)
+> remark-lint: [no-duplicate-definitions](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-definitions "Link to remarkjs docs")
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 [snow](https://snow.io)
