@@ -2,7 +2,7 @@
 This guide is for Plone **6** and JavaScript related documentation.
 :::
 
-For Plone **5**, please follow our guide on [docs.plone.org](https://docs.plone.org/about/contributing/index.html#overview).
+For Plone **5**, please follow our guide on [docs.plone.org](https://docs.plone.org/about/contributing/index.html#overview "Link to https://docs.plone.org").
 
 # Introduction
 
@@ -18,7 +18,8 @@ The guide is a reference document; instead of reading through it in linear order
 
 Markdown is a lightweight markup language with plain text formatting syntax.
 
-The [Plone community](https://plone.org) uses [CommonMark](https://commonmark.org/), a defined, highly compatible specification of Markdown.
+The [Plone community](https://plone.org "Link to the main website of Plone")
+uses [CommonMark](https://commonmark.org/ "Link to main website of CommonMark"), a defined, highly compatible specification of Markdown.
 
 ## Editorial guide
 
