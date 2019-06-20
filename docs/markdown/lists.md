@@ -1,14 +1,16 @@
 # Lists
 
-## Unordered Marker
+::: tip Key Point
+:bulb: How to uses lists.
+:::
+
+## Unordered marker
 
 Use dashes `-` marker.
 
-> remark-lint: [unordered-list-marker-style](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-unordered-list-marker-style)
+> remark-lint: [unordered-list-marker-style](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-unordered-list-marker-style "Link to remarkjs docs")
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 - Winter
@@ -16,7 +18,7 @@ Use dashes `-` marker.
 - Frost
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 * Winter
@@ -30,7 +32,7 @@ Use dashes `-` marker.
 + Frost
 ```
 
-## Ordered Marker
+## Ordered marker
 
 Use continuous numerating marker for ordered list items.
 
@@ -42,17 +44,20 @@ The marker character must be a dot (`.`), characters like a closing brace (`)`) 
 
 The only disadvantage is that references break when a new list item is added.
 
+<!--lint disable-->
+
 This problem can be reduced by
 
 - Using an unordered list until the final structure and layout has been determined.
 - Keeping references close to the list to avoind forgetting to update them.
 - Always specify an specific version of the markdown file when referring from an external document.
 
-> remark-lint: [ordered-list-marker-style](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-unordered-list-marker-style) and [remark-lint-ordered-list-marker-value](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-ordered-list-marker-value)
+> remark-lint: [ordered-list-marker-style](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-unordered-list-marker-style "Link to remarkjs docs")
+and [remark-lint-ordered-list-marker-value](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-ordered-list-marker-value "Link to remarkjs docs")
 
-### Examples
+<!--lint enable-->
 
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 1. Winter
@@ -61,7 +66,7 @@ This problem can be reduced by
 3. Frost
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 1. Winter
@@ -84,17 +89,13 @@ This problem can be reduced by
 3) Frost
 ```
 
-## No Content Before
+## No content before
 
 Make sure that there are no other characters (including whitespaces) in front of each list item.
 
-> remark-lint: [list-item-bullet-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-bullet-indent)
+> remark-lint: [list-item-bullet-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-bullet-indent "Link to remarkjs docs")
 
-### Examples
-
-
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 - Winter
@@ -110,9 +111,11 @@ Make sure that there are no other characters (including whitespaces) in front of
 3. Frost
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
-Note: The `·` character represents a whitespace character.
+::: tip Note
+The `·` character represents a whitespace character.
+:::
 
 ```markdown
 x- Winter
@@ -130,15 +133,15 @@ x1. Winter
 ·3. Frost
 ```
 
-## Continuous Indentation
+## Continuous indentation
 
 Use two (2) whitespaces for continuous indentation of nested items and their content.
+<!--lint disable-->
+> remark-lint: [list-item-content-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-content-indent "Link to remarkjs docs")
+and [list-item-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-indent "Link to remarkjs docs")
+<!--lint enable-->
 
-> remark-lint: [list-item-content-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-content-indent) and [list-item-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-indent)
-
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 - Winter
@@ -174,12 +177,11 @@ Use two (2) whitespaces for continuous indentation of nested items and their con
     import winter.Snow;
     String[] flakes = Snow.getFlakes();
     ```
-    * Frost
+    - Frost
       > Sparkling and frozen!
 `````
 
-
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 - Winter
@@ -219,15 +221,13 @@ Use two (2) whitespaces for continuous indentation of nested items and their con
    > Sparkling and frozen!
 `````
 
-## Empty Lines
+## Empty lines
 
 A list must not contain blank lines between each list item.
 
-> remark-lint: [list-item-spacing](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-spacing)
+> remark-lint: [list-item-spacing](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-spacing "Link to remarkjs docs")
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 - Winter
@@ -236,7 +236,7 @@ A list must not contain blank lines between each list item.
 - Frost
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 - Winter
@@ -248,13 +248,11 @@ A list must not contain blank lines between each list item.
 - Frost
 ```
 
-## Empty Lines Before And After
+## Empty lines before and after
 
 Always surround lists by a single empty line except at the beginning of the file.
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 ... snowflakes are falling.
@@ -267,7 +265,7 @@ Always surround lists by a single empty line except at the beginning of the file
 Sparkling and frozen...
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 ... snowflakes are falling.
@@ -291,15 +289,13 @@ Sparkling and frozen...
 Sparkling and frozen...
 ```
 
-## Letter Case
+## Letter case
 
-In general use upper cases for enumerations because most of the time the content is a noun, proper name, code snippet or standalone sentence.
+Use upper cases for enumerations because most of the time the content is a noun, proper name, code snippet or standalone sentence.
 
 When the list items are meant to be imaginary concatenated with the sentence that comes before the list, adapt to the same case as the context.
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 The winter has
@@ -328,7 +324,7 @@ A list for
 - `String`
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 The winter has
@@ -356,15 +352,13 @@ A list for
 - react
 - `string`
 ```
-## Punctuation After Items
+## Punctuation after items
 
 Use punctuation at the end of a list item when it contains a sentence that starts with an upper case letter or multiple sentences or paragraphs.
 
 Omit the punctuation for single words.
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 - Winter
@@ -380,7 +374,7 @@ The Winter is
 - Bright and enlightened.
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 - Winter.
@@ -396,28 +390,26 @@ The Winter is
 - bright and enlightened
 ```
 
-## Checkbox Character Style
+## Checkbox character style
 
 Use `x` for ticked checkboxes and a single space ` ` for non ticked checkboxes.
 
-> remark-lint: [checkbox-character-style](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-checkbox-character-style)
+> remark-lint: [checkbox-character-style](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-checkbox-character-style "Link to remarkjs docs")
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
-* [x] Winter
-* [ ] Snow
-* [x] Frost
+- [x] Winter
+- [ ] Snow
+- [x] Frost
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
-* [!] Winter
-* [~] Snow
-* [»] Frost
+- [!] Winter
+- [~] Snow
+- [»] Frost
 ```
 
 ```markdown
