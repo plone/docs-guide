@@ -7,7 +7,7 @@
 **:thumbsup: Correct:**
 <!--lint disable-->
 ```markdown
-![snowflake icon](https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png "Picture of a snowflake") snowflakes falling down in the winter!
+![snowflake icon](https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png) snowflakes falling down in the winter!
 ```
 <!--lint enable-->
 
