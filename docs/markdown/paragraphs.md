@@ -2,13 +2,13 @@
 
 ## No Indentation
 
-Never indent the content of paragraphs.
+::: tip Key Point
+:bulb: Never indent the content of paragraphs.
+:::
 
-> remark-lint: [no-paragraph-content-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-paragraph-content-indent)
+> remark-lint: [no-paragraph-content-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-paragraph-content-indent "Link to remarkjs")
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 The winter has sparkling and frozen elements!
@@ -19,7 +19,7 @@ Snowflakes are falling down.
 The `·` character represents a whitespace.
 :::
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 ·The winter has sparkling and frozen elements!
