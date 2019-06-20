@@ -1,21 +1,23 @@
 # Emphasis
 
+::: tip Key Point
+:bulb: How to use emphasis to highlight text
+:::
+
 ## Italic
 
 Use one (1) asterisk `*` marker to generate spans for italic formatted text.
 
-> remark-lint: [emphasis-marker](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-emphasis-marker)
+> remark-lint: [emphasis-marker](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-emphasis-marker "Lint to remarkjs docs")
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 *Winter*
 *Snow*
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 __Winter__
@@ -26,24 +28,22 @@ __Snow__
 
 Use two (2) asterisk `*` marker to generate spans for bold formatted text.
 
-> remark-lint: [emphasis-marker](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-emphasis-marker) and [strong-marker](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-strong-marker)
+> remark-lint: [emphasis-marker](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-emphasis-marker "Link to remarkjs docs") and [strong-marker](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-strong-marker "Lint to remarkjs docs")
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 **Winter**
 **Snow**
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 *Winter*
 ```
 
-## No Header Replacement
+## No header replacement
 
 Do not use emphasis elements (bold or italics) to introduce a multi line named section.
 Use headers instead which is exactly the semantic meaning of headers.
@@ -53,11 +53,9 @@ to make it easier to refer to the header later on.
 
 Use a level 6 header if the meaning of the header section should not stand out great.
 
-> remark-lint: [no-emphasis-as-heading](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-emphasis-as-heading)
+> remark-lint: [no-emphasis-as-heading](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-emphasis-as-heading "Lint to remarkjs docs")
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 ## Winter
@@ -79,7 +77,7 @@ The winter has sparkling and frozen elements!
 Snow is falling down!
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 **Winter**
@@ -91,22 +89,20 @@ __Snow__
 Snow is falling down!
 ```
 
-## No Inner Spacing
+## No inner spacing
 
 Do not use inner spaces for any markers.
 
-> remark-lint: [no-inline-padding](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-inline-padding)
+> remark-lint: [no-inline-padding](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-inline-padding "Link to remarkjs docs")
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 **Winter**
 *Snow*
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 ** Winter **
