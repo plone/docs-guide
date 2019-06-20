@@ -26,7 +26,7 @@
 
 ## Line length
 
-Strings that cause the line to go over 100 characters should not be written across multiple lines using string concatenation.
+Strings that cause the line to go over 120 characters should not be written across multiple lines using string concatenation.
 
 Broken strings are painful to work with and make code less searchable.
 
