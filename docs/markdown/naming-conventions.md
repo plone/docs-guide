@@ -1,14 +1,16 @@
-# Naming Conventions
+# Naming conventions
 
-## File Extension
+::: tip Key Point
+:bulb: How to name files and usage of file extension
+:::
+
+## File extension
 
 Always use `.md` file extension.
 
-> remark-lint: [file-extension](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-file-extension)
+> remark-lint: [file-extension](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-file-extension "Link to remarkjs docs")
 
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 ice.md
@@ -16,7 +18,7 @@ snow.md
 frost.md
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```raw
 ice.gfm
@@ -24,15 +26,15 @@ snow.mdk
 frost.markdown
 ```
 
-## File Naming
+## File naming
+<!--lint disable-->
+Always prefer [spinal-case](https://en.wikipedia.org/wiki/Letter_case#Special_case_styles "Link explaining spinal-case")
+(also named [*kebab-case* or *hyphen-separated*](https://stackoverflow.com/questions/11273282/whats-the-name-for-hyphen-separated-case/12273101 "Link to Stack Overflow explaining name difference"))
+for file names.
+<!--lint enable-->
+> remark-lint: [no-file-name-mixed-case](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-file-name-mixed-case "Link to remarkjs docs")
 
-Always prefer [spinal-case](https://en.wikipedia.org/wiki/Letter_case#Special_case_styles) (also named [*kebab-case* or *hyphen-separated*](https://stackoverflow.com/questions/11273282/whats-the-name-for-hyphen-separated-case/12273101)) for file names.
-
-> remark-lint: [no-file-name-mixed-case](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-file-name-mixed-case)
-
-### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```raw
 winter-season.md
@@ -40,7 +42,7 @@ ice-cold.md
 snow-fall.md
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```raw
 winterSeason.md
