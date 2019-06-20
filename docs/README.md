@@ -5,7 +5,7 @@ actionLink: introduction
 footer: Made with 💚 by Plone Community
 ---
 <!--lint disable-->
-# About
+## About
 <!--lint enable-->
 
 Every open source project has its own style guide, a set of standards, for documentation.
