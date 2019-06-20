@@ -20,7 +20,7 @@ Avoid contractions formed from nouns and verbs.
 
 **:thumbsdown: Not recommended:** Plone's fast and awesome.
 
-In some cases, it's OK to use a noun+verb contraction, such as "If you want to display information, a table's your best option."
+Sometimes, it's OK to use a noun+verb contraction, such as "If you want to display information, a table's your best option."
 
 It's best to avoid that kind of contraction.
 

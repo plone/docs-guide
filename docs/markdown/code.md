@@ -76,7 +76,7 @@ export default Frost;
 
 ## Escape newlines in terminal commands
 
-Command snippets are intended to be copied and pasted directly into e.g. a terminal.
+Command snippets are intended to be copied and pasted directly into for example a terminal.
 
 To protect the user from unintentional run the copied code due to a newline (interpreted by the terminal as <kbd>Enter</kbd>) use a single backslash at the end of the line.
 
@@ -98,7 +98,7 @@ npx run docs:generate -- --template=winter --description="Sparkling and frozen" 
 Avoid to use dollar sign (`$`) in shell code.
 It improves the readability and prevents error when users copy and paste the code.
 
-To clarify the output of a command use e.g. a comment on the next line or optionally append it to the command on the same line, separated by a whitespace.
+To clarify the output of a command use for example a comment on the next line or optionally append it to the command on the same line, separated by a whitespace.
 
 > remark-lint: [no-shell-dollars](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-shell-dollars "Link to remarkjs docs")
 
@@ -200,11 +200,11 @@ or terminal command quotations that contain sample output when the being execute
 - **Executables** - `gcc`, `npm`, `go`, `python`
 - **Paths** - `/etc/hosts`, `src/main/java/com/arcticicestudio/icecore/hashids/Hashids.java`
 - **Version numbers** - `0.2.0`, `1.8.6-frost.2`
-- **Code e.g. reserved keywords, builtins and operators** - `this`, `true`/`false`, `String`, `=>`
+- **Code for example reserved keywords, builtins and operators** - `this`, `true`/`false`, `String`, `=>`
 
 Don't use it for
 
-- **Project or proper names** - e.g [React](https://reactjs.org "Link to reactjs"), [GCC](https://gcc.gnu.org "Link to GCC"), [Node.js](https://nodejs.org "Link to nodejs"), [Golang](https://golang.org "Link to Golang") or [Rust](https://www.rust-lang.org "Link to rust")
-- **Libraries** - e.g. [libc](https://crates.io/crates/libc "Link to libc")
-- **Packages and modules** - e.g. [react-dom](https://www.npmjs.com/package/react-dom "Link to react-dom")
+- **Project or proper names** - for example [React](https://reactjs.org "Link to reactjs"), [GCC](https://gcc.gnu.org "Link to GCC"), [Node.js](https://nodejs.org "Link to nodejs"), [Golang](https://golang.org "Link to Golang") or [Rust](https://www.rust-lang.org "Link to rust")
+- **Libraries** - for example [libc](https://crates.io/crates/libc "Link to libc")
+- **Packages and modules** - for example [react-dom](https://www.npmjs.com/package/react-dom "Link to react-dom")
 <!--lint enable-->

@@ -35,7 +35,7 @@ Use descriptive headings and titles because they help a user navigate their brow
 
 - Use meaningful link text. Links should make sense when read out of context.
 - Don't use *click here* or *read this document*.
-- Avoid adjacent links or put a character in between to separate them.
+- Avoid adjacent links or put a character between to separate them.
 
 ## Images
 

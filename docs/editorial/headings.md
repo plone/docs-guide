@@ -10,7 +10,7 @@ It's easier to jump between pages and sections of a page if the headings and tit
 ## Formatting a heading or title
 
 - Use sentence case for headings and titles. For more information, see Capitalization.
-- Tag headings using heading elements. In Markdown: `#`, `##`, and so on.
+- Tag headings using heading elements. In Markdown: `#`, `##`.
 - Don't use code font even for elements that use code font in paragraph text.
 - Use a heading hierarchy and take the following items under consideration
 

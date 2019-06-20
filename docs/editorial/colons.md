@@ -1,7 +1,7 @@
 # Colons
 
 ::: tip Key Point
-:bulb: A colon indicates that closely-related information follows.
+:bulb: A colon indicates that related information follows.
 :::
 
 ## Introductory phrase preceding colon

@@ -4,8 +4,9 @@
 :bulb: How to add hidden, non-rendered comments.
 :::
 
+<!-- vale off -->
 ## HTML
-
+<!-- vale on -->
 Prefer [HTML comment syntax](https://www.w3.org/TR/html51/syntax.html#sec-comments "Link to w3-html5-spec about comments") to add hidden,
 non-rendered comments.
 

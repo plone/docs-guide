@@ -38,7 +38,7 @@ Use continuous numerating marker for ordered list items.
 
 This increases the readability and overview and allows to refer to items by their number in the same markdown file or externally.
 
-It also allows to create sub-items which is not possible if the same number will be used for all top-level items.
+It also allows to create sub-items which is impossible if the same number will be used for all top-level items.
 
 The marker character must be a dot (`.`), characters like a closing brace (`)`) are not allowed since they are only supported in CommonMark.
 
@@ -172,7 +172,7 @@ and [list-item-indent](https://github.com/remarkjs/remark-lint/tree/master/packa
   }
   export default Frost;
   ```
-  - Snow
+   Snow
     ```java
     import winter.Snow;
     String[] flakes = Snow.getFlakes();

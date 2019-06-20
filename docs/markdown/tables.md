@@ -7,7 +7,7 @@
 Complex, large tables are difficult to read in source and most importantly, a pain to modify, indent and also read later for example when using
 
 - Line breaks within rows
-- Very long sentences that must be wrapped
+- Long sentences that must be wrapped
 - Inline links with long URLs
 
 Lists and subheadings usually suffice to present the same information in a slightly less compact, though much more edit-friendly and more elegant way.
