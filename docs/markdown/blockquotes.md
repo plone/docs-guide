@@ -1,20 +1,22 @@
 # Blockquotes
 
+::: tip Key Point
+:bulb: How to use blockquotes.
+:::
+
 ## Indentation
 
 Always separate the marker `>` from the actual content using a single whitespace.
 
-> remark-lint: [blockquote-indentation](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-blockquote-indentation)
+> remark-lint: [blockquote-indentation](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-blockquote-indentation "Link to remarkjs docs" )
 
-#### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 > Winter
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 >Winter
@@ -24,15 +26,13 @@ Always separate the marker `>` from the actual content using a single whitespace
 >  Winter
 ```
 
-## Multi Line
+## Multi line
 
-Use a `greater than` sign for every line, including wrapped.
+Use a `greater than` sign (`>`) for every line, including wrapped.
 
-> remark-lint: [no-blockquote-without-marker](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-blockquote-without-marker)
+> remark-lint: [no-blockquote-without-marker](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-blockquote-without-marker "Link to remarkjs docs")
 
-#### Examples
-
-**Correct** code for this rule:
+**:thumbsup: Correct** code for this rule:
 
 ```markdown
 > Winter
@@ -45,7 +45,7 @@ Use a `greater than` sign for every line, including wrapped.
 > arctic foxes, and grizzly bears.
 ```
 
-**Incorrect** code for this rule:
+**:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
 > Winter
