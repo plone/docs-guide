@@ -10,7 +10,7 @@
 - **Consistency to other style guides**. Double quotes are used by many code styles like for example [JavaScript](https://arcticicestudio.github.io/styleguide-javascript "Link to an JS code style guide").
 - **Parallelism to the natural language**. Double quotes are used to identify a passage of quoted text.
 
-> remark-lint: [link-title-style](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-link-title-style)
+> remark-lint: [link-title-style](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-link-title-style "Link to remarkjs docs")
 
 **:thumbsup: Correct** code for this rule:
 
