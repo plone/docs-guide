@@ -1,6 +1,8 @@
 # Acronyms
 
-Acronyms and abbreviations can have an adverse effect on clarity, voice, and SEO.
+::: tip Key Point
+:bulb: Acronyms and abbreviations can have an adverse effect on clarity, voice, and SEO.
+:::
 
 Although some acronyms are widely understood and preferred to the spelled-out term,
 others aren’t well known or are familiar to all readers.
@@ -22,12 +24,7 @@ Some acronyms, like *USB, FAQ,* and *URL,* are more well known than the spelled-
 Don’t spell out the term if the acronym is listed in *[The American Heritage Dictionary](https://ahdictionary.com/)*
 or if the A–Z word list says to use the acronym without spelling it out.
 
-### Examples
-
-Conversation as a platform (CaaP) has the potential to make booking a flight as easy as sending a text message.
-Developers are also looking to CaaP to make computing more accessible to users of all abilities.
-
-Learn how to connect a USB device to your computer.
+**:thumbsup: Recommended:** Learn how to connect a USB device to your computer.
 
 ## Don’t introduce acronyms that are used once
 
@@ -51,30 +48,16 @@ Lowercase all words in the spelled-out form of an acronym except for proper noun
 
 The names of protocols and specifications are considered proper nouns and are capitalized when spelled out.
 
-### Examples
+**:thumbsup: Recommended:** High-Definition Multimedia Interface (HDMI)
 
-- High-Definition Multimedia Interface (HDMI)
-
-**Add *s* to make an acronym plural**
+Add *s* to make an acronym plural
 
 Form the plural of an acronym like you would any other noun.
 If the acronym stands for a singular noun, add a lowercase *s* to make it plural.
 
 If an acronym stands for a plural noun, don’t add an *s.*
 
-### Examples
-
-- Three APIs
-
-## Avoid the possessive form
-
-Unless an acronym refers to a person or an organization, avoid using the possessive form.
-
-### Examples
-
-- The IDE enhancements
-- The purpose of the FAQ
-- The CEO’s blog
+**:thumbsup: Recommended:** Three APIs
 
 ::: tip
 In machine-translated content, be careful with acronyms that form common English words, like *RAM.*

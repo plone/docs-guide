@@ -126,7 +126,8 @@ Note: The `·` character represents a whitespace character.
 
 ## Sentences case
 
-Use an upper case letter as the first letter of a header, unless it is a word that always starts with lowercase letters, for example proper names or code snippets.
+Use an upper case letter as the first letter of a header, unless it is a word that always starts with lowercase letters,
+for example proper names or code snippets.
 
 **:thumbsup: Correct** code for this rule:
 
@@ -186,7 +187,8 @@ The winter is sparkling and frozen and soft snowflakes are falling down on the w
 
 ## Punctuation after content
 
-Do not use any punctuation at the end of a header for example a trailing (semi)colon `;:`, period `.`, closing marker `#` or any "sentence amplifier" (`!?`).
+Do not use any punctuation at the end of a header
+for example a trailing (semi)colon `;:`, period `.`, closing marker `#` or any "sentence amplifier" (`!?`).
 
 Every header is an introduction to what is about to come next, which is exactly the function of a colon.
 

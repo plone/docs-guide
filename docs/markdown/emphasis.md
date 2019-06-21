@@ -27,8 +27,11 @@ __Snow__
 ## Bold
 
 Use two (2) asterisk `*` marker to generate spans for bold formatted text.
+<!--lint disable-->
 
 > remark-lint: [emphasis-marker](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-emphasis-marker "Link to remarkjs docs") and [strong-marker](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-strong-marker "Lint to remarkjs docs")
+
+<!--lint enable-->
 
 **:thumbsup: Correct** code for this rule:
 
