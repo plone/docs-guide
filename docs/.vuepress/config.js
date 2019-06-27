@@ -57,6 +57,14 @@ module.exports = {
       ]
     },
     {
+      title: 'CI/CD',
+      collapsable: true,
+      children: [
+        'ci/overview',
+        'ci/travis',
+      ]
+    },
+    {
       title: 'About',
       collapsable: true,
       children: [
