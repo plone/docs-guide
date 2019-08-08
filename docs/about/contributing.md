@@ -8,19 +8,19 @@ We would love for you to contribute to this guide and help make it even better t
 
 ## Code of Conduct
 
-Please read and follow our [Code of Conduct](https://plone.org/foundation/materials/foundation-resolutions/code-of-conduct).
+Please read and follow our [Code of Conduct](https://plone.org/foundation/materials/foundation-resolutions/code-of-conduct "Link to code of conduct").
 
 ## Questions
 
 Do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature requests.
 
-You've got much better chances of getting your question answered on our [forum](https://community.plone.org)
+You've got much better chances of getting your question answered on our [forum](https://community.plone.org "Link to Plone forum")
 where the questions should be tagged with `docs`.
 
 ## Bugs
 
 If you find a bug in the source code, you can help us by
-[submitting an issue](#submit-issue) to our [GitHub Repository](https://github.com/plone/docs-guide/issues).
+[submitting an issue](https://github.com/plone/docs-guide/issues "Link to issue page") to our [GitHub Repository](https://github.com/plone/docs-guide/ "Link to repository").
 
 Even better, you can [submit a Pull Request](#submitting-a-pull-request) with a fix.
 
@@ -35,6 +35,7 @@ Please consider what kind of change it is:
 - For a **Major Feature**, first open an issue and outline your proposal so that it can be
 discussed. This will also allow us to better coordinate our efforts, prevent duplication of work,
 and help you to craft the change so that it is successfully accepted into the project.
+
 - **Small Features** can be crafted and directly [submitted as a Pull Request](#submitting-a-pull-request).
 
 ## Submission Guidelines
@@ -44,7 +45,8 @@ and help you to craft the change so that it is successfully accepted into the pr
 Before you submit an issue, please search the issue tracker,
 maybe an issue for your problem already exists and the discussion might inform you of workarounds.
 
-You can file new issues by selecting from our [new issue templates](https://github.com/plone/docs-guide/issues/new/choose) and filling out the issue template.
+You can file new issues by selecting from our [new issue templates](https://github.com/plone/docs-guide/issues/new/choose)
+and filling out the issue template.
 
 ### Submitting a Pull Request
 
@@ -69,6 +71,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
      ```bash
      git commit -a
      ```
+
     Note: the optional commit `-a` command line option will automatically "add" and "rm" edited files.
 
 1. Push your branch to GitHub:
@@ -88,7 +91,9 @@ Before you submit your Pull Request (PR) consider the following guidelines:
     git push -f
     ```
 
-That's it! Thank you for your contribution!
+That's it!
+
+**Thank you for your contribution!**
 
 #### After your pull request is merged
 
@@ -129,7 +134,6 @@ We advice to use [Commitizen](https://commitizen.github.io/cz-cli/) which is ins
 
 The git commit messages are also used to **generate the change log**.
 
-
 ### Commit Message Format
 
 Each commit message consists of a **header**, a **body** and a **footer**.
@@ -165,7 +169,7 @@ The version in our package.json gets copied to the one we publish, and users nee
 
 ### Revert
 
-If the commit reverts a previous commit, it should begin with `revert: `, followed by the header of the reverted commit.
+If the commit reverts a previous commit, it should begin with `revert:`, followed by the header of the reverted commit.
 
 In the body it should say: `This reverts commit <hash>.`, where the hash is the SHA of the commit being reverted.
 
