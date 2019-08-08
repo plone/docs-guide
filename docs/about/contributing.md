@@ -125,7 +125,7 @@ We have precise rules over how our git commit messages can be formatted.
 
 This leads to **more readable messages** that are better to follow when looking through the **project history**.
 
-We advice to use [Commitizen](https://commitizen.github.io/cz-cli/) which is installed as part of the*dev dependencies*.
+We advice to use [Commitizen](https://commitizen.github.io/cz-cli/) which is installed as part of the *dev dependencies*.
 
 The git commit messages are also used to **generate the change log**.
 
