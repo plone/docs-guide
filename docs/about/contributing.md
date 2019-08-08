@@ -14,7 +14,8 @@ Please read and follow our [Code of Conduct](https://plone.org/foundation/materi
 
 Do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature requests.
 
-You've got much better chances of getting your question answered on our [forum](https://community.plone.org) where the questions should be tagged with `docs`.
+You've got much better chances of getting your question answered on our [forum](https://community.plone.org)
+where the questions should be tagged with `docs`.
 
 ## Bugs
 
