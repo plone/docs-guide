@@ -33,8 +33,8 @@ If you would like to *implement* a new feature, please submit an issue with a pr
 Please consider what kind of change it is:
 
 - For a **Major Feature**, first open an issue and outline your proposal so that it can be
-discussed. This will also allow us to better coordinate our efforts, prevent duplication of work,
-and help you to craft the change so that it is successfully accepted into the project.
+  discussed. This will also allow us to better coordinate our efforts, prevent duplication of work,
+  and help you to craft the change so that it is successfully accepted into the project.
 
 - **Small Features** can be crafted and directly [submitted as a Pull Request](#submitting-a-pull-request).
 
@@ -72,7 +72,8 @@ Before you submit your Pull Request (PR) consider the following guidelines:
      git commit -a
      ```
 
-    Note: the optional commit `-a` command line option will automatically "add" and "rm" edited files.
+    ::: tip Note
+    The optional commit `-a` command line option will automatically "add" and "rm" edited files.
 
 1. Push your branch to GitHub:
 
@@ -81,10 +82,10 @@ Before you submit your Pull Request (PR) consider the following guidelines:
     ```
 
 1. In GitHub, send a pull request to `docs-guide:master`.
-- If we suggest changes then:
-  - Make the required updates.
-  - Re-run the Angular test suites to ensure tests are still passing.
-  - Rebase your branch and force push to your GitHub repository (this will update your Pull Request):
+  - If we suggest changes then:
+    - Make the required updates.
+    - Re-run the Angular test suites to ensure tests are still passing.
+    - Rebase your branch and force push to your GitHub repository (this will update your Pull Request):
 
     ```bash
     git rebase master -i
