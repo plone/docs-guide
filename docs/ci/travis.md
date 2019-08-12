@@ -1,4 +1,6 @@
+<!-- vale off -->
 # Travis CI
+<!-- vale on -->
 
 ::: tip Key Point
 :bulb: How to use [Travis CI](https://travis-ci.org/ "Website of Travis CI") for documentation quality assurance.
