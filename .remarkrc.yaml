@@ -5,9 +5,10 @@ plugins:
   validate-links:
   lint-no-heading-punctuation:
   # Customized settings
-  lint-list-item-indent: mixed
+  lint-list-item-indent: space
   lint-maximum-line-length: 150
   lint-no-shell-dollars: true
   lint-no-duplicate-headings: false
   lint-maximum-heading-length: 80
   lint-heading-style: false
+  lint-list-item-content-indent: false

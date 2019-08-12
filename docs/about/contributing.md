@@ -54,38 +54,49 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 
 1. Search [GitHub](https://github.com/plone/docs-guide/pulls) for an open or closed PR
   that relates to your submission. You don't want to duplicate effort.
+
 1. Be sure that an issue describes the problem you're fixing, or documents the design for the feature you'd like to add.
   Discussing the design up front helps to ensure that we're ready to accept your work.
+
 1. Fork the `plone/docs-guide` repository.
+
 1. Make your changes in a new git branch:
 
-     ```bash
-     git checkout -b my-fix-branch master
-     ```
+   ```bash
+   git checkout -b my-fix-branch master
+   ```
 
 1. Create your patch, **including appropriate test cases**.
+
 1. Commit your changes using a descriptive commit message that follows our
   [commit message conventions](#commit-message-guidelines). Adherence to these conventions
   is necessary because release notes are automatically generated from these messages.
 
-     ```bash
-     git commit -a
-     ```
+<!--lint disable list-item-content-indent-->
 
-    ::: tip Note
-    The optional commit `-a` command line option will automatically "add" and "rm" edited files.
+   ```bash
+   git commit -a
+   ```
+
+   ::: tip Note
+   The optional commit `-a` command line option will automatically "add" and "rm" edited files.
 
 1. Push your branch to GitHub:
 
-    ```bash
-    git push origin my-fix-branch
-    ```
+   ```bash
+   git push origin my-fix-branch
+   ```
+
+<!--lint enable list-item-content-indent-->
 
 1. In GitHub, send a pull request to `docs-guide:master`.
-  - If we suggest changes then:
-    - Make the required updates.
-    - Re-run the Angular test suites to ensure tests are still passing.
-    - Rebase your branch and force push to your GitHub repository (this will update your Pull Request):
+If we suggest changes then:
+
+- Make the required updates.
+
+- Re-run the Angular test suites to ensure tests are still passing.
+
+- Rebase your branch and force push to your GitHub repository (this will update your Pull Request):
 
     ```bash
     git rebase master -i
