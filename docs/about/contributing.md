@@ -80,6 +80,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 
    ::: tip Note
    The optional commit `-a` command line option will automatically "add" and "rm" edited files.
+   :::
 
 1. Push your branch to GitHub:
 
