@@ -23,7 +23,7 @@
   "dependencies": {
     "js-yaml": "^3.13.1",
     "remark-html": "^13.0.2",
-    "vuepress": "^0.14.11"
+    "vuepress": "^1.9.7"
   },
   "commitlint": {
     "extends": [
