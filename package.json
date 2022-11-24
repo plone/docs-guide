@@ -22,7 +22,7 @@
   "homepage": "https://github.com/plone/docs-guide#readme",
   "dependencies": {
     "js-yaml": "^3.13.1",
-    "remark-html": "^9.0.0",
+    "remark-html": "^13.0.2",
     "vuepress": "^0.14.11"
   },
   "commitlint": {
